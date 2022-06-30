@@ -2,7 +2,6 @@
 Test custom Django management commands.
 """
 
-from sys import stdout
 from unittest.mock import patch
 
 from psycopg2 import OperationalError as Psycopyg2Error
